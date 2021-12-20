@@ -79,9 +79,7 @@ router.get('/eventos', async (req, res) => {
 		'INNER JOIN  ORGANIZACAO as O ON E.CRIADOR = O.ID' +
 		(!!queryConstraint ? ' WHERE ' + queryConstraint : '')
 
-	console.log(
-		'Pegando as marcações e os tipos de marcações do mapa principal.'
-	)
+	console.log('Pegando todos os eventos do banco.')
 
 	let result = await connection
 		.promise()

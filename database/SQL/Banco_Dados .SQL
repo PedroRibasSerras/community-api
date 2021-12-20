@@ -10,11 +10,11 @@ INSERT INTO ORGANIZACAO (ID, NOME, TIPO, EMAIL, SENHA) VALUES (NULL, 'SEMEAR', 3
 
 -- EVENTOS
 
-INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, DATA_EVENTO, ENDERECO, CRIADOR) VALUES ('Luta Jovem', 'Vamos juntos nessa causa justa!!', -22.001537519353068, -47.898084253207905, '2022-03-10 12:00:00', 'Av. Trab. São Carlense, 400 - Parque Arnold Schimidt, São Carlos - SP, 13566-590', 1);
-INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, DATA_EVENTO, ENDERECO, CRIADOR) VALUES ('Linguiçada do Nava', 'Venha para o melhor churrasco do bairro', -22.002925469364172, -47.896302738126025, '2022-04-10 16:00:00', 'R. dos Inconfidentes, 371 - Parque Arnold Schimidt, São Carlos - SP, 13566-581', 2);
-INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, DATA_EVENTO, ENDERECO, CRIADOR) VALUES ('Café com a Eng Comp', 'Venha tomar um cafezinho brabo', '2022-04-11 13:00:00', -22.002326982628787, -47.932289596359986, 'Jardim, Av. João Dagnone, 1100 - Santa Angelina, São Carlos - SP, 13563-120', 2);
-INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, DATA_EVENTO, ENDERECO, CRIADOR) VALUES ('Contruindo Robôs', 'Venha aprender a contruir robôs sensoriais', '2022-05-15 18:00:00', -22.007564804992704, -47.89819832733643, 'Av. Trab. São Carlense, 400 - Parque Arnold Schimidt, São Carlos - SP, 13564-002', 3);
-INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, DATA_EVENTO, ENDERECO, CRIADOR) VALUES ('Hackaton Eng Comp', 'O maior e melhor hackaton da USP', '2022-06-19 19:00:00', -22.002244194231714, -47.931072612777854, 'Jardim, Av. João Dagnone, 1100 - Santa Angelina, São Carlos - SP, 13563-120',2);
+INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, ENDERECO, CRIADOR) VALUES ('Luta Jovem', 'Vamos juntos nessa causa justa!!', -22.001537519353068, -47.898084253207905, 'Av. Trab. São Carlense, 400 - Parque Arnold Schimidt, São Carlos - SP, 13566-590', 1);
+INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE,ENDERECO, CRIADOR) VALUES ('Linguiçada do Nava', 'Venha para o melhor churrasco do bairro', -22.002925469364172, -47.896302738126025,'R. dos Inconfidentes, 371 - Parque Arnold Schimidt, São Carlos - SP, 13566-581', 2);
+INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE,  ENDERECO, CRIADOR) VALUES ('Café com a Eng Comp', 'Venha tomar um cafezinho brabo', -22.002326982628787, -47.932289596359986, 'Jardim, Av. João Dagnone, 1100 - Santa Angelina, São Carlos - SP, 13563-120', 2);
+INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, ENDERECO, CRIADOR) VALUES ('Contruindo Robôs', 'Venha aprender a contruir robôs sensoriais', -22.007564804992704, -47.89819832733643, 'Av. Trab. São Carlense, 400 - Parque Arnold Schimidt, São Carlos - SP, 13564-002', 3);
+INSERT INTO EVENTO (TITULO, DESCRICAO, LATITUDE, LONGITUDE, ENDERECO, CRIADOR) VALUES ('Hackaton Eng Comp', 'O maior e melhor hackaton da USP', -22.002244194231714, -47.931072612777854, 'Jardim, Av. João Dagnone, 1100 - Santa Angelina, São Carlos - SP, 13563-120',2);
 
 -- NOTIFICAÇÕES
 
